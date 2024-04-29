@@ -1,0 +1,198 @@
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 55px 0px 30px;
+}
+
+.header img{
+    width: 9%;
+}
+
+.content-section{
+    background-image: url(../assets/background-large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 90vh;
+    display: flex;
+    padding: 60px;
+}
+
+.white-text{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h1{
+    line-height: 1.125;
+}
+
+.content-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: -290px;
+}
+
+.content-text p{
+    line-height: 1.625;
+    font-size: 1.25rem;
+    padding: 20px 0px;
+    max-width: 455px;
+}
+
+.contact-form input{
+    width: 450px;
+    font-size: large;
+    padding: 6px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contact-form button{
+    width: 450px;
+    background-color: black;
+    font-family: 'Eczar', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    padding: 8px;
+    border: none;
+}
+
+span{
+    font-family: 'Fira Sans', sans-serif
+}
+
+.description-section{
+    display: flex;
+    padding: 60px;
+    padding-left: 350px;
+    max-width: 1365px;
+}
+
+.description-text{
+    max-width: 1365px;
+}
+
+.description-text h3{
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.description-text p{
+    font-size: 0.875rem;
+    line-height: 1.375;
+    color: rgba(75, 80, 92, 0.62);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.footer-text{
+    font-size: 0.875rem;
+}
+
+@media (max-width: 769px){
+
+    .header{
+        padding: 25px 0px;
+    }
+
+    .header img{
+        width: 100%;
+        max-width: 150px;
+        padding-top: 6px;
+    }
+
+    .content-section{
+        padding: 50px;
+        max-width: 768px;
+        align-items: flex-end;
+    }
+
+    .content-container{
+        position: static;
+        align-items: flex-start;    
+    }
+
+    .content-text{
+        max-width: 315px;
+        position: relative;
+        top: -70px;
+    }
+
+    .description-section{
+        position: static;
+        padding: 50px;
+    }
+
+    .description-text h3{
+        font-size: 1rem;
+    }
+
+    .description-text p{
+        font-size: 0.875rem;
+        max-width: 660px;
+    }
+
+    .contact-form input{
+        max-width: 300px;
+    }
+    
+    .contact-form button{
+        font-size: 1.3125rem;
+        max-width: 300px;
+    }    
+
+    .footer-text{
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+}
+
+
+@media (max-width: 375px){
+    
+    .content-section{
+        padding: 30px;
+    }
+
+    .contact-form input{
+        max-width: 90%;
+    }
+
+    .contact-form button{
+        max-width: 90%;
+    }
+
+    .description-section{
+        padding: 30px;
+    }
+
+    .description-text{
+        font-size: 0.75rem;
+        line-height: 1.375;
+    }
+    
+}
+
+@media (769px < width <=1440px){
+
+    .header{
+        padding: 25px 0px;
+    }
+
+    .header img{
+        width: 100%;
+        max-width: 150px;
+        padding-top: 6px;
+    }
+    .content-container{
+        position: static;
+    }
+
+    .description-section{
+        padding-left: 60px;
+    }
+}
